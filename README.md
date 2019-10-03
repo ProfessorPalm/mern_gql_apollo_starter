@@ -1,4 +1,4 @@
-# MERN + Apollo(Client & Server) + Graphql Boilerplate :rocket: 
+# MERN + Apollo(Client & Server) + GraphQL Boilerplate :rocket: 
 
 ## Clone the repo using
 
