@@ -1,4 +1,4 @@
-import { Book } from "../models/models";
+import { Book } from "../models/Book";
 
 export default {
   Query: {
