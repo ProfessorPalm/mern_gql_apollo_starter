@@ -1,0 +1,17 @@
+{
+  "name": "book-of-champions",
+  "version": "1.0.0",
+  "description": "Showcase of champions from League of Legends",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jaguar Jung",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  },
+  "dependencies": {}
+}
