@@ -4,6 +4,8 @@
   "description": "Showcase of champions from League of Legends",
   "main": "index.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
     "server": "npm start --prefix server",
     "client": "npm start --prefix client",
     "start": "concurrently \"npm run server\" \"npm run client\""
